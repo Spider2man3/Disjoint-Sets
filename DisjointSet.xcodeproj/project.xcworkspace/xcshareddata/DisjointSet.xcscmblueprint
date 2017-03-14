@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A028FFF22BE76531F3F0BAA7C9E2EBCCD8BBF9E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A028FFF22BE76531F3F0BAA7C9E2EBCCD8BBF9E4" : 9223372036854775807,
+    "FD0FC2A00B60AF5BC04268FACB12AAE7E2DAEB54" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F2C67152-0113-4FAB-A958-CCA84B8B6A35",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A028FFF22BE76531F3F0BAA7C9E2EBCCD8BBF9E4" : "DisjointSet\/",
+    "FD0FC2A00B60AF5BC04268FACB12AAE7E2DAEB54" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DisjointSet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DisjointSet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Spider2man3\/Disjoint-Sets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A028FFF22BE76531F3F0BAA7C9E2EBCCD8BBF9E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/halterman\/318_W17",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD0FC2A00B60AF5BC04268FACB12AAE7E2DAEB54"
+    }
+  ]
+}
