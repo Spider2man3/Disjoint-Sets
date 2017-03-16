@@ -13,7 +13,7 @@ public:
     virtual ~DisjointSet();
     int findSet(int i);
     void unionSet(int s1, int s2);
-    void splitSet(int s);
+    void splitSet();
     int cardinality();
     void print() const;
 };

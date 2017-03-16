@@ -27,13 +27,25 @@ void DisjointSet::unionSet(int s1, int s2) {
     sets[p1] = p2;
 }
 
-void DisjointSet::splitSet(int s) {
-    
+void DisjointSet::splitSet() {
+    for (int i = 0; i < sets.size(); i++) {
+        sets[i] = i;
+    }
 }
 
 int DisjointSet::cardinality() {
-    int sum = 0;
-    return sum;
+    if (sets.size() == 0) {
+        return 0;
+    }
+
+    std::vector<int> card;
+    card.push_back(findSet(sets[0]));
+    for (int i = 1; i < sets.size(); i++) {
+        if (std::find(card.begin(), card.end(), findSet(sets[i])) == card.end()) {
+            card.push_back(findSet(sets[i]));
+        }
+    }
+    return static_cast<int>(card.size());
 }
 
 void DisjointSet::print() const {
