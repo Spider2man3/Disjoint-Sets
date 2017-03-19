@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisjointSet/main.cpp"
-            timestampString = "511278159.929032"
+            timestampString = "511631923.465263"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "class GridWindow"
             landmarkType = "3">
          </BreakpointContent>

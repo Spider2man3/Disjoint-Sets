@@ -3,7 +3,7 @@
 //  DisjointSet
 //
 //  Created by Thomas Manu on 3/13/17.
-//  Copyright © 2017 Thomas Manu. All rights reserved.
+//  Copyright © 2017 Thomas Manu and Adams Bala. All rights reserved.
 //
 
 #include "DisjointSet.hpp"
@@ -58,12 +58,25 @@
                          set.print();
                      }
                  }
+                 else if (((number % 4) == 0 || (number2 % 4) == 0) && ((number % 4) == 1 || (number2 % 4) == 1)) {
+                     if (set.findSet(number) != set.findSet(number2)) {
+                         set.unionSet(number, number2);
+                         std::cout << "  Set: ";
+                         set.print();
+                     }
+                 }
+                 else if (((number % 4) == 2 || (number2 % 4) == 2) && ((number % 4) == 3 || (number2 % 4) == 3)) {
+                     if (set.findSet(number) != set.findSet(number2)) {
+                         set.unionSet(number, number2);
+                         std::cout << "  Set: ";
+                         set.print();
+                     }
+                 }
              }
              else if (number == (number2 + 4) || (number + 4) == number2) {
                  if (set.findSet(number) != set.findSet(number2)) {
                      set.unionSet(number, number2);
-                     std::cout << "  Set: ";
-                     set.print();
+                     
                  }
              }
          }
