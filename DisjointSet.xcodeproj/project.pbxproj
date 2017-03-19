@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E93D52921E779CEE00645328 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E93D52911E779CEE00645328 /* README.md */; };
 		E99818F21E779731007DB515 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E99818F11E779731007DB515 /* main.cpp */; };
-		E99818FC1E779743007DB515 /* DisjointSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E99818F81E779743007DB515 /* DisjointSet.cpp */; };
 		E99819011E7797F2007DB515 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99818FF1E7797F2007DB515 /* GLUT.framework */; };
 		E99819021E7797F2007DB515 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99819001E7797F2007DB515 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
@@ -30,8 +29,6 @@
 		E93D52911E779CEE00645328 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E99818EE1E779731007DB515 /* DisjointSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DisjointSet; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99818F11E779731007DB515 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E99818F81E779743007DB515 /* DisjointSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisjointSet.cpp; sourceTree = "<group>"; };
-		E99818F91E779743007DB515 /* DisjointSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DisjointSet.hpp; sourceTree = "<group>"; };
 		E99818FB1E779743007DB515 /* sgl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sgl.hpp; sourceTree = "<group>"; };
 		E99818FF1E7797F2007DB515 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		E99819001E7797F2007DB515 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -71,8 +68,6 @@
 		E99818F01E779731007DB515 /* DisjointSet */ = {
 			isa = PBXGroup;
 			children = (
-				E99818F81E779743007DB515 /* DisjointSet.cpp */,
-				E99818F91E779743007DB515 /* DisjointSet.hpp */,
 				E99818FB1E779743007DB515 /* sgl.hpp */,
 				E99818F11E779731007DB515 /* main.cpp */,
 			);
@@ -146,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93D52921E779CEE00645328 /* README.md in Sources */,
-				E99818FC1E779743007DB515 /* DisjointSet.cpp in Sources */,
 				E99818F21E779731007DB515 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
